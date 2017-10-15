@@ -149,10 +149,7 @@ public class PointGrid : MonoBehaviour
         {
             return false;
         }
-        else
-        {
-            Debug.DrawLine(point1.position, point2.position, Color.blue,500f);
-        }
+
 
 
         return true;
